@@ -99,7 +99,7 @@ export default defineNuxtConfig({
   i18n: {
     locales: [
       { code: 'en', name: 'English', language: 'en-US' },
-      { code: 'fr', name: 'French', language: 'fr-FR' },
+      { code: 'fr', name: 'French', language: 'fr-CA' },
     ],
     detectBrowserLanguage: {
       useCookie: true,
@@ -107,7 +107,7 @@ export default defineNuxtConfig({
       redirectOn: 'root',
     },
     strategy: 'prefix',
-    defaultLocale: 'en',
+    defaultLocale: 'fr',
   },
 
   icon: {
